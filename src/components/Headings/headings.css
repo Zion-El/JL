@@ -1,0 +1,48 @@
+
+.cause-wrap{
+    width: 70%;
+    margin: 80px 15%;
+    background-color: rgba(203, 208, 210, 0.37);
+    padding: 30px;
+    border-radius: 20px;
+    min-height: 500px;
+}
+
+.cause-wrap h5{
+    text-align: center;
+    color: #D235B0;
+}
+.cause-wrap img {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    text-align: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+.cause-wrap p {
+    text-align: center;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+.m-text h2{
+    color:#451DE2;
+    padding: 30px 0px;
+}
+
+.icon i {
+    font-size: 80px;
+    color: #451DE2;
+}
+
+@media(max-width:425px){
+    .cause-wrap{
+        width: 84%;
+        margin: 20px 8%;
+        background-color: rgba(203, 208, 210, 0.37);
+        padding: 30px;
+        border-radius: 20px;
+        min-height: 450px;
+    }
+    
+}

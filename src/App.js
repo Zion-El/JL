@@ -1,26 +1,27 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import Home from './components/Home';
-// import Signup from './components/auth/SignUp';
-// import Login from './components/auth/SignIn';
-import { AuthProvider } from './components/auth/authContext';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import LatestCause from './pages/LatestCause';
+import SocialCause from './pages/SocialCause';
 
 function App() {
   return (
-    <div className="App">
-    <Router>
-      <AuthProvider>
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          {/* <Route path='/signUp' element={<Signup/>}/>
-          <Route path='/login' element={<Login/>}/> */}
-        </Routes> 
-      </AuthProvider>
-    </Router>
-     
-
-
-    </div>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />}/>
+      <Route path="/about" element={<About/>}/>
+      <Route path="/contact" element={<Contact/>}/> 
+      <Route path="/latest-causes" element={<LatestCause/>}/>
+      <Route path="/social-events" element={<SocialCause/>}/>  
+    </Routes>
+  </BrowserRouter>
   );
 }
 

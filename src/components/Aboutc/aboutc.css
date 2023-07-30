@@ -1,0 +1,426 @@
+.a-a-wrap{
+    width: 90%;
+    margin: 0px 5%;
+    padding: 50px 0px;
+    height: 550px;
+}
+
+.a-left{
+    /* position: relative; */
+    z-index: -1;
+}
+.a-a-wrap img{
+    width: 92%;
+    height: 400px;
+    position: relative;
+    z-index: 2;
+   }
+
+.card-a{
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    padding: 30px;
+    position: relative !important;
+    width: 98%;
+    z-index: 2 !important;
+    margin: 0px 1%;
+    right: 100px;
+    height: 500px;
+    top: 40px;
+}
+.card-a h1{
+    color: #451DE2;
+    text-align: center;
+}
+.card-a p {
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.core .bg-c h3{
+    
+    background-color: #A020F0;
+    color: white;
+
+    padding: 25px 0px;
+    text-align: center;
+    margin-top: 80px;
+}
+.core-info{
+    margin-bottom: 40px;
+}
+.core-info .icon{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    background-color:#D9D9D9;
+}
+.icon img{
+   height: 40px;
+   width: 40px;
+   position: absolute;
+    left: 32px;
+    top: 35px;
+}
+.line{
+    height: 150px;
+    width: 90%;
+    margin: 5px 5%;
+    border: solid 1px  #A020F0 ;
+
+
+}
+.line h2{
+    color: #A020F0;
+    padding-top: 40px !important;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.t-team{
+    background-color:  #F8EEFE;
+    padding: 40px 0px;
+    margin: 50px 0px;
+    margin-bottom: -10px;
+}
+.t-team h1{
+    color: #451DE2;
+    text-align: center;
+    padding: 10px 0px;
+}
+.mission-about{
+    background-color:#F8EEFE;
+    margin-top: 100px;
+    text-align: center;
+    padding: 40px 0px;
+    margin-bottom: 40px !important;
+}
+.m-s{
+    width: 90%;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.m-s h4{
+    color: #451DE2;
+}
+@media (max-width: 768px){
+    .a-a-wrap{
+        width: 98%;
+        margin: 20px 5%;
+        padding: 5px 0px;
+        height: 750px !important;
+    }
+    
+    .a-left{
+        /* position: relative; */
+        z-index: -1;
+    }
+    .a-a-wrap img{
+        width: 92%;
+        height: 400px;
+        position: relative;
+        z-index: 2;
+       }
+    
+    .card-a{
+        box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+        padding: 30px;
+        position: relative !important;
+        width: 98%;
+        z-index: 2 !important;
+        margin: 0px 1%;
+        right: 100px;
+        height: 750px;
+        top: 40px;
+    }
+    .card-a h1{
+        color: #451DE2;
+        text-align: center;
+        font-size: 25px;
+        padding-left: 30px;
+    }
+    .card-a p {
+        font-weight: 400;
+        text-align: center;
+        padding: 20px 0px;
+        padding-left: 30px;
+    
+    }
+    
+    .core .bg-c h3{
+        
+        background-color: #A020F0;
+        color: white;
+        padding: 25px 0px;
+        text-align: center;
+    }
+    .core-info {
+        margin-bottom: 150px;
+    }
+    .core-info .icon{
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        position: relative;
+        left: 40px;
+        top: 70px;
+        background-color:#D9D9D9;
+    }
+    .icon #icon{
+        font-size: 30px !important;
+        position: absolute !important;
+        color: #fff !important;
+        left: 32px;
+        top: 35px;
+    }
+    
+    
+    .t-team{
+        background-color:  #F8EEFE;
+        padding: 10px 0px;
+        margin-bottom: -50px;
+        margin-top: -50px;
+    }
+    .t-team h1{
+        color: #451DE2;
+        text-align: center;
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width:425px){
+    .a-a-wrap{
+        width: 98%;
+        margin: 20px 5%;
+        padding: 5px 0px;
+        height: 800px !important;
+    }
+    
+    
+    .a-a-wrap img{
+        width: 92%;
+        height: 400px;
+        position: relative;
+        z-index: 2;
+       }
+    
+    .card-a{
+       
+      
+        padding: 30px;
+        position: relative !important;
+        width: 98%;
+        z-index: 2 !important;
+        margin: 0px 1%;
+        right: 10px;
+        height: 640px !important;
+        top: 40px;
+    }
+    .card-a h1{
+        color: #451DE2;
+        text-align: center;
+        font-size: 25px;
+        padding-left: 0px;
+    }
+    .card-a p {
+        font-weight: 400;
+        text-align: center;
+        padding: 20px 0px;
+        padding-left: 0px;
+    
+    }
+    .core-info{
+        margin-bottom: 100px;
+    }
+    
+    .core .bg-c h3{
+        
+        background-color: #A020F0;
+        color: white;
+        padding: 25px 0px;
+        text-align: center;
+        margin-top: 340px;
+    }
+    .core-info .icon{
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        position: relative;
+        left: 160px;
+        top: 45px;
+        background-color:#D9D9D9;
+    }
+    .icon #icon{
+        font-size: 30px !important;
+        position: absolute !important;
+        color: #fff !important;
+        left: 32px;
+        top: 35px;
+    }
+
+    .line h2{
+        color: #A020F0;
+        padding-top: 40px;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .t-team{
+        background-color:  #F8EEFE;
+        padding: 10px 0px;
+        margin-bottom: -10px;
+        margin-top: -50px;
+    }
+    .t-team h1{
+        color: #451DE2;
+        text-align: center;
+        padding: 10px 0px;
+    }
+    .mission-about{
+        background-color:#F8EEFE;
+        margin-top: 330px !important;
+        text-align: center;
+        padding: 20px 0px;
+        margin-bottom: -300px !important;
+    }
+    .m-s{
+        width: 90%;
+        margin: 10px auto;
+        padding: 20px;
+    }
+}
+@media (max-width: 375px){
+    .a-a-wrap{
+        height: 700px !important;
+    }
+    
+    .a-a-wrap img{
+        width: 92%;
+        height: 300px;
+        position: relative;
+        z-index: 2;
+       }
+    
+    
+    .card-a{
+        height: 320px;
+        top: 40px;
+    }
+   
+    .core-info .icon{
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        position: relative;
+        left: 140px;
+        top: 45px;
+        background-color:#D9D9D9;
+    }
+    .icon #icon{
+        font-size: 30px !important;
+        position: absolute !important;
+        color: #fff !important;
+        left: 32px;
+        top: 35px;
+    }
+  
+    .line h2{
+        color: #A020F0;
+        padding-top: 40px;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .t-team{
+        background-color:  #F8EEFE;
+        padding: 10px 0px;
+        margin-bottom: -10px;
+        margin-top: -50px;
+    }
+    .t-team h1{
+        color: #451DE2;
+        text-align: center;
+        padding: 10px 0px;
+    }
+}
+@media (max-width: 325px){
+    .a-a-wrap{
+       
+        height: 830px;
+    }
+    
+    
+    .a-a-wrap img{
+        width: 92%;
+        height: 250px;
+        position: relative;
+        z-index: 2;
+       }
+    
+    .card-a{
+        height: 950px !important;
+        top: 40px;
+    }
+    .card-a h1{
+        color: #451DE2;
+        text-align: center;
+        font-size: 25px;
+        padding-left: 0px;
+    }
+
+  
+    .core-info .icon{
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+        position: relative;
+        left: 110px;
+        top: 45px;
+        background-color:#D9D9D9;
+    }
+    .icon img{
+        height: 40px;
+        width: 40px;
+        position: absolute;
+         left: 32px;
+         top: 35px;
+     }
+ 
+    .line h2{
+        color: #A020F0;
+        padding-top: 40px;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .t-team{
+        background-color:  #F8EEFE;
+        padding: 10px 0px;
+        margin-bottom: -10px;
+        margin: 50px 0px !important;
+        margin-top: -px;
+    }
+    .t-team h1{
+        color: #451DE2;
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .mission-about{
+        background-color:#F8EEFE;
+        margin-top: 550px !important;
+        text-align: center;
+        padding: 20px 0px;
+        margin-bottom: -300px !important;
+    }
+    .m-s{
+        width: 90%;
+        margin: 10px auto;
+        padding: 20px;
+    }
+}

@@ -1,0 +1,27 @@
+.afternav-wrap{
+    background: url("../../asset/img5.jpg"), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-size: cover;
+    height: 300px;
+    /* background-blend-mode: m; */
+}
+
+.a-content{
+    padding-top: 150px;
+}
+.a-content h3{
+    font-size: 40px;
+    color:#fff;
+    margin-bottom: 20px;
+}
+.a-content p i {
+    width: 40px;
+}
+.a-content p{
+    color: white;
+    font-size: 15px;
+}
+.a-content p a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}

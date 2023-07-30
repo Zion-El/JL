@@ -1,0 +1,104 @@
+.b-wrap{
+    background-color: #13051DA6;
+    margin-top: 5px;
+    padding: 50px 50px;
+
+}
+.b-wrap-content{
+    width: 60%;
+    margin: 10px 20%;
+    text-align: center;
+}
+.b-wrap-content h2{
+    color: white;
+    padding-top: 5px;
+    font-size: 40px;
+}
+.b-wrap-content p{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 25px 0px;
+}
+.btn-b a {
+    background-color: #D235B0;
+    padding: 10px 60px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.btn-b a:hover {
+    background-color: #fff;
+    padding: 10px 60px;
+    color: #D235B0;
+    border: solid 1px #D235B0;
+  
+}
+
+@media (max-width: 768px){
+    .b-wrap{
+        background-color: #13051DA6;
+        margin-top: 10px;
+        padding: 20px 50px;
+    
+    }
+    .b-wrap-content{
+        width: 80%;
+        margin: 20px 10%;
+        text-align: center;
+    }
+    .b-wrap-content h2{
+        color: white;
+        padding-top: 50px;
+        font-size: 25px;
+    }
+    .b-wrap-content p{
+        color: white;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .btn-b a {
+        background-color: #D235B0;
+        padding: 10px 60px;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 425px){
+    .b-wrap{
+        background-color: #13051DA6;
+        margin-top: 10px;
+        padding: 20px 50px;
+    
+    }
+    .b-wrap-content{
+        width: 90%;
+        margin: 20px 5%;
+        text-align: center;
+    }
+    .b-wrap-content h2{
+        color: white;
+        padding-top: 50px;
+        font-size: 20px;
+    }
+    .b-wrap-content p{
+        color: white;
+        font-size: 16px;
+        font-weight: 200;
+    }
+    .btn-b a {
+        background-color: #D235B0;
+        padding: 10px 60px;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+}

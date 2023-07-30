@@ -1,0 +1,43 @@
+.volunteer-wrap{
+    background-color: rgba(248, 238, 254, 0.99);
+    padding: 50px 0px;
+    margin-bottom: -50px;
+   
+}
+.volunteer-top h2 {
+    color:#451DE2 ;
+    padding: 20px 0px;
+}
+.volunteers {
+    width: 80%;
+    margin: 40px 10%;  
+}
+.card-card-t{
+    width: 70%;
+    margin: 50px 15%;
+    min-height: 400px !important;
+   text-align: center;
+}
+
+
+.card-card-t img {
+    height: 220px;
+    width: 220px;
+    border-radius: 100%;
+}
+.img-desc{
+    text-align: center;
+    padding: 30px;
+}
+@media(max-width:425px){
+    .card-card-t{
+        width: 90%;
+        margin: 50px 5%;
+        min-height: 400px !important;
+       text-align: center;
+    }
+    .volunteers {
+        width: 98%;
+        margin: 40px 1%;  
+    }
+}

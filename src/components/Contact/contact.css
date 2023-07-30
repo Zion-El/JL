@@ -1,0 +1,88 @@
+.contact-wrap{
+    padding-top: 50px;
+    width: 90%;
+    margin: 0px 5%;
+}
+.form {
+    margin: 50px;
+}
+.form h5{
+    color:#451DE2;
+    margin: 30px 0px;
+}
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 30px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  .btn-contact{
+      background-color: transparent;
+      padding: 10px 50px;
+      border: 1px solid #A020F0;
+      border-radius: 10px;
+      color: #A020F0;
+  }
+
+  .btn-contact:hover{
+    background-color:  #A020F0;
+    color:#fff;
+    border: none;
+}
+
+.contact-left ul{
+    list-style: none;
+    padding-top: 30px;
+}
+.contact-left ul li{
+    padding-left: 40px;
+    color: #848D8D;
+    padding-bottom: 20px;
+}
+.contact-left ul p{
+    padding-left: 20px;
+}
+.contact-left .donatee{
+    margin-left: 70px;
+}
+.contact-left .donatee h3{
+    color:#451DE2;
+}
+
+.contact-left .donatee p{
+    color: #848D8D;
+    font-weight: 500;
+}
+
+@media (max-width:425px){
+    
+    .contact-wrap{
+        width: 96%;
+        margin: 0px 2%;
+    }
+.contact-left ul{
+    list-style: none;
+    padding-top: 30px;
+}
+.contact-left ul li{
+  margin-left: -60px;
+    color: #848D8D;
+    padding-bottom: 20px;
+}
+.contact-left ul p{
+   margin-left: -10px !important;
+}
+.contact-left .donatee{
+    margin-left: 10px;
+}
+.contact-left .donatee h3{
+    color:#451DE2;
+}
+
+.contact-left .donatee p{
+    color: #848D8D;
+    font-weight: 500;
+}
+}

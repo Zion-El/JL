@@ -1,0 +1,38 @@
+.social-wrap{
+    width: 95%;
+    margin: 50px 2.5%;
+   
+}
+
+.event-wrap {
+    width: 90%;
+    height: 240px;
+    margin: 20px 5%;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    padding: 10px;
+}
+.event-wrap .event-image  img{
+    height: 200px;
+    width: 100%;
+}
+.event-content h4{
+    color: #A020F0;
+    padding-top: 30px;
+}
+.event-content p{
+    color:#848D8D;
+    font-weight: 500;
+}
+
+@media (max-width:425px){
+    .event-wrap{
+    height: 400px;
+    }
+    .event-content h4{
+        padding: 5px;
+    }
+    .event-content p{
+        padding: 5px;
+    }
+    
+}
